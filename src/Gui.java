@@ -5,6 +5,7 @@ public class Gui {
 		int a = 0;
 		int b = -17;
 		int c = 23;
+		Steuerung steuerung = new Steuerung();
 		Random rand = new Random();
 		System.out.println(rand.nextInt(200)*b+c);
 		System.out.println(a);
