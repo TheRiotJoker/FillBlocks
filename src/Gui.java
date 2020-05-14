@@ -1,9 +1,12 @@
+import java.util.Random;
 
 public class Gui {
 	public static void main(String[] args) {
-		System.out.println("Pepe the frog");
-		for(int i = 9; i < 100; i++) {
-			System.out.println("Pepe the frog");
-		}
+		int a = 0;
+		int b = -17;
+		int c = 23;
+		Random rand = new Random();
+		System.out.println(rand.nextInt(200)*b+c);
+		System.out.println(a);
 	}
 }
