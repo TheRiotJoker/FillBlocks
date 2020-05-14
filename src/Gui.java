@@ -8,5 +8,6 @@ public class Gui {
 		Random rand = new Random();
 		System.out.println(rand.nextInt(200)*b+c);
 		System.out.println(a);
+		System.out.println("nothing");
 	}
 }
