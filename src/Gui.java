@@ -9,5 +9,8 @@ public class Gui {
 		System.out.println(rand.nextInt(200)*b+c);
 		System.out.println(a);
 		System.out.println("nothing");
+		for(int d = 0; d < rand.nextInt(10);d++) {
+			System.out.println("Nothing");
+		}
 	}
 }
